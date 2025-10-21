@@ -1,0 +1,697 @@
+body.backimg{
+    background-image: url("siteimages/galpic5.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+div.contmainbod{
+    background-color: rgb(34, 83, 102);
+    width:1900px;
+    height:auto;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+
+button.bttbutton{
+    background-color:transparent;
+    border:1px solid transparent;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 1px;
+    padding-right:200px;
+    padding-bottom:200px;
+    display: none;
+    height:150px;
+    width:150px;
+    transition:0.5s;
+}
+
+img.arrowimg{
+    height:150px;
+    width:150px;
+}
+
+header.mainhpg{
+    border:1px solid transparent;
+    margin:1px;
+    margin-top:-10px;
+    height:400px;
+    width:auto;
+    background-color:white;
+}
+
+div.rbutcontainer{
+    height:350px;
+    width:450px;
+    border:1px solid transparent;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+
+button.pgrefbut{
+    height:350px;
+    width:450px;
+    background-color:transparent;
+    border:1px solid transparent;
+    transition:0.3s;
+}
+
+button.pgrefbut:hover{
+    cursor:pointer;
+    opacity:80%;
+}
+
+img.logimg{
+    height:345px;
+    width:350px;
+}
+
+div.selectioncontainer{
+        height: 100px;
+    width: auto;
+    border: 1px solid transparent;
+    background-color: rgb(136, 80, 80);
+    margin: -1px;
+}
+
+div.aboutsecbut{
+    height:75px;
+    width:150px;
+    border:1px solid transparent;
+    margin-top:10px;
+    margin-left:350px;
+}
+
+div.servsecbut{
+    height:75px;
+    width:210px;
+    border:1px solid transparent;
+    margin-left:265px;
+    margin-top:-75px;
+     margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+
+span.triang{
+    font-size:35px;
+    display:inline-block;
+    transition:0.5s;
+    position:relative; margin-right: -50px;
+}
+
+div.gallerysecbut{
+    height:75px;
+    width:150px;
+    border:1px solid transparent;
+    float: right;
+    margin-right:350px;
+    margin-top:-75px;
+}
+
+div.fbsecbut{
+    height:125px;
+    width:150px;
+    border:1px solid transparent;
+    float:right;
+    margin-left:500px;
+    margin-top:-128px;
+}
+
+button.abtbut{
+    height:75px;
+    width:150px;
+    border:1px solid black;
+    background-color:transparent;
+    border:1px solid transparent;
+    font-size:40px;
+    font-family:Impact;
+    color:black;
+    transition:0.3s;
+}
+
+button.abtbut:hover{
+    color:rgb(51, 51, 51);
+    cursor:pointer;
+}
+
+button.servbut{
+    height:75px;
+    width:160px;
+    border:1px solid transparent;
+    background-color:transparent;
+    font-size:40px;
+    font-family:Impact;
+    color:black;
+    transition:0.3s;
+    text-align:center;
+}
+
+button.servbut:hover{
+    color:rgb(51, 51, 51);
+    cursor:pointer;
+}
+
+button.gallsecbut{
+    height:75px;
+    width:150px;
+    border:1px solid transparent;
+    background-color:transparent;
+    border:1px solid transparent;
+    font-size:40px;
+    font-family:Impact;
+    color:black;
+    transition:0.3s;
+}
+
+button.gallsecbut:hover{
+    color:rgb(51, 51, 51);
+    cursor:pointer;
+}
+
+img.fblinkimg{
+    height:75px;
+    width:75px;
+    transition:0.3s;
+    float:right;
+    margin-right:400px;
+    margin-top:-150px;
+}
+
+img.fblinkimg:hover{
+    cursor:pointer;
+    opacity:80%;
+}
+
+div.slidingmenucontainer{
+    height:0;
+    width:410px;
+    background-color:rgb(136, 80, 80);
+    border-radius:5px;
+    float:right;
+    margin-right:450px;
+    overflow-y:hidden;
+    transition:0.5s;
+    position:absolute;
+    opacity:200%;
+}
+
+button.roofbut{
+    height:65px;
+    width:200px;
+    border:1px solid transparent;
+    background-color: transparent;
+    color:gold;
+    font-size:30px;
+    font-family:Impact;
+}
+
+button.roofbut:hover{
+    cursor:pointer;
+    text-decoration:underline solid gold;
+    text-underline-offset: 10px;
+}
+
+button.fencebut{
+    height:65px;
+    width:200px;
+    border:1px solid transparent;
+    background-color: transparent;
+    color:gold;
+    font-size:30px;
+    font-family:Impact;
+    margin-left:-2px;
+}
+
+button.fencebut:hover{
+    cursor:pointer;
+    text-decoration:underline solid gold;
+    text-underline-offset: 10px;
+}
+
+button.concrbut{
+    height:65px;
+    width:200px;
+    border:1px solid transparent;
+    background-color: transparent;
+    color:gold;
+    font-size:30px;
+    font-family:Impact;
+    margin-left:4px;
+}
+
+button.concrbut:hover{
+    cursor:pointer;
+    text-decoration:underline solid gold;
+    text-underline-offset: 10px;
+}
+
+button.paintbut{
+    height:65px;
+    width:200px;
+    border:1px solid transparent;
+    background-color: transparent;
+    color:gold;
+    font-size:30px;
+    font-family:Impact;
+}
+
+button.paintbut:hover{
+    cursor:pointer;
+    text-decoration:underline solid gold;
+    text-underline-offset: 10px;
+}
+
+button.sidingbut{
+    height:65px;
+    width:150px;
+    border:1px solid transparent;
+    background-color: transparent;
+    color:gold;
+    font-size:30px;
+    font-family:Impact;
+    float:right;
+    margin-top:-250px;
+    margin-right:56px;
+}
+
+button.sidingbut:hover{
+    cursor:pointer;
+    text-decoration:underline solid gold;
+    text-underline-offset: 10px;
+}
+
+button.mworkbut{
+    height:65px;
+    width:200px;
+    border:1px solid transparent;
+    background-color: transparent;
+    color:gold;
+    font-size:30px;
+    font-family:Impact;
+    float:right;
+    margin-top:-250px;
+}
+
+button.mworkbut:hover{
+    cursor:pointer;
+    text-decoration:underline solid gold;
+    text-underline-offset: 10px;
+}
+
+button.mbuildbut{
+    height:65px;
+    width:200px;
+    border:1px solid transparent;
+    background-color: transparent;
+    color:gold;
+    font-size:20px;
+    font-family:Impact;
+    float:right;
+    margin-top:-200px;
+    margin-right:5px;
+}
+
+button.mbuildbut:hover{
+    cursor:pointer;
+    text-decoration:underline solid gold;
+    text-underline-offset: 10px;
+}
+
+img.starbullet{
+    height:30px;
+    width:30px;
+    margin-right:10px;
+}
+
+
+footer.allpgsfooter{
+    height:170px;
+    width:auto;
+    border:1px solid transparent;
+    background-color:rgb(136, 80, 80);
+    margin:-2px;
+}
+
+div.aboutsectionmaincontainer{
+    height:2550px;
+    width:auto;
+    border:1px solid transparent;
+}
+
+p.footerinfopara{
+    font-size:25px;
+    font-family:Impact;
+    color:white;
+}
+
+div.aboutsectionfirstinnercontainer{
+    height:800px;
+    width:auto;
+    border:1px solid transparent;
+}
+
+div.aboutsectionheadingoutercontainer{
+    height:100px;
+    width:1000px;
+    border:1px solid transparent;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+
+h4.aboutsectionfirstheading{
+    text-align:center;
+    font-size:50px;
+    color:white;
+    margin-top:-75px;
+}
+
+img.aboutheadstarone{
+    height:100px;
+    width:100px;
+}
+
+img.aboutheadstartwo{
+    height:100px;
+    width:100px;
+    float:right;
+    margin-top:-155px;
+}
+
+div.aboutsectionsecondinnercontainer{
+    height:1700px;
+    width:auto;
+    margin:1px;
+    border:1px solid transparent;
+}
+
+p.aboutsectionfrontpara{
+    font-size: 40px;
+    color: white;
+    text-align:center;
+}
+
+h4.secondparaheading{
+    text-align: center;
+    font-size: 50px;
+    margin-top:100px;
+    color:white;
+}
+
+div.ownerphotocontainer{
+    height:600px;
+    width:900px;
+    border:5px solid white;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+
+h4.ownernameheading{
+    text-align:center;
+    font-size:50px;
+    color:white;
+    text-decoration: underline 2px solid white;
+    text-underline-offset:10px;
+}
+
+div.aboutderekparacontainer{
+    height:500px;
+    width:1300px;
+    border:1px solid transparent;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+
+img.aboutownerphoto{
+    height:600px;
+    width:900px;
+}
+
+div.mobiledropdowndivbar1{
+    height:8px;
+    width:75px;
+    border:1px solid black;
+    background-color:black;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+
+button.mobiledropdowniconiconcontainer{
+    height:100px;
+    width:100px;
+    border:1px solid transparent;
+    margin-right:auto;
+    margin-left:auto;
+    display:none;
+    margin-top:10px;
+    text-align:center;
+    margin-top:20px;
+    background-color:transparent;
+    transition:0.5s;
+}
+
+div.mobileselectiondropdownmenucontainer{
+    height:0;
+    width:auto;
+    background-color:rgb(136, 80, 80);
+    position:relative;
+    transition:0.5s;
+    overflow-y:hidden;
+}
+
+button.mobileaboutbutton{
+    height: 100px;
+    width:300px;
+    color:white;
+    border:1px solid transparent;
+    display:block;
+    margin-right:auto;
+    margin-left:auto;
+    font-size:45px;
+    background-color:transparent;
+}
+
+button.mobilegallerybutton{
+    height: 100px;
+    width:300px;
+    color:white;
+    border:1px solid transparent;
+    display:block;
+    margin-right:auto;
+    margin-left:auto;
+    font-size:45px;
+    background-color:transparent;
+}
+
+button.mobileservicesbutton{
+    height: 100px;
+    width:300px;
+    border:1px solid transparent;
+    display:block;
+    margin-right:auto;
+    margin-left:auto;
+    font-size:45px;
+    color:white;
+    background-color:transparent;
+}
+
+span.mobiledropdownicontriang{
+    font-size:50px;
+    transform: rotate(135deg);
+    position:relative;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+    margin-top:-10px;
+    margin-left:5px;
+    color:black;
+}
+
+p.aboutderekpara{
+    font-size: 40px;
+    color: white;
+    text-align:center;
+}
+
+@media (max-width:2050px){
+    #contmainbodalt{
+        width:1400px;
+    }
+}
+
+@media (max-width:2050px){
+    #aboutsectionfrontparaalt{
+        font-size:40px;
+    }
+}
+
+@media (max-width:2050px){
+    #aboutsecbutaalt{
+        margin-left:200px;
+    }
+}
+
+@media (max-width:2050px){
+    #gallerysecbutaalt{
+        margin-right:200px;
+    }
+}
+
+@media (max-width:2050px){
+    #aboutsectionmaincontaineralt{
+        height:2700px;
+    }
+}
+
+@media (max-width:2050px){
+    #aboutderekparacontaineralt{
+        height:700px;
+        width:1000px;
+    }
+}
+
+@media (max-width:2050px){
+    #aboutsectionsecondinnercontaineralt{
+        height:1800px;
+    }
+}
+
+
+
+
+
+@media (max-width:1550px){
+    #contmainbodalt{
+        width:1100px;
+    }
+}
+
+@media (max-width:1550px){
+    #aboutsecbutaalt{
+        margin-left:100px;
+    }
+}
+
+@media (max-width:1550px){
+    #gallerysecbutaalt{
+        margin-right:100px;
+    }
+}
+
+@media (max-width:1200px){
+    #selectionconatineralt{
+        display:none;
+    }
+}
+
+@media (max-width:1200px){
+    #mobileselectioncontaineralt{
+        display:block;
+        height:120px;
+        width:auto;
+        border:1px solid black;
+        background-color:rgb(136, 80, 80);
+        margin:-3px;
+    }
+}
+
+@media (max-width:1200px){
+    #mobiledropdowniconiconcontaineralt{
+        display:block;
+        width:300px;
+    }
+}
+
+
+
+
+
+
+@media (max-width:1200px){
+    #contmainbodalt{
+        width:800px;
+    }
+}
+
+@media (max-width:1200px){
+    #aboutderekparacontaineralt{
+        width:700px;
+    }
+}
+
+@media (max-width:1200px){
+    #aboutsectionsecondinnercontaineralt{
+        width:800px;
+        height:1900px;
+    }
+}
+
+@media (max-width:1200px){
+    #aboutsectionmaincontaineralt{
+        height:3000px;
+    }
+}
+
+@media (max-width:1200px){
+    #ownerphotocontaineralt{
+        height:400px;
+        width:600px;
+    }
+}
+
+@media (max-width:1200px){
+    #aboutownerphotoalt{
+        height:400px;
+        width:600px;
+    }
+}
+
+@media (max-width:1200px){
+    #aboutsectionfirstinnercontaineralt{
+        width:700px;
+        height:1000px;
+    }
+}
+
+@media (max-width:1200px){
+    #aboutsectionheadingoutercontaineralt{
+        width:750px;
+        margin-left:25px;
+    }
+}
+
+@media (max-width:1200px){
+    #aboutsectionfirstheadingalt{
+        font-size:40px;
+    }
+}
+
+@media (max-width:1200px){
+    #aboutheadstaronealt{
+        height:75px;
+        width:75px;
+        margin-bottom:15px;
+        position:relative;
+    }
+}
+
+@media (max-width:1200px){
+    #aboutheadstartwoalt{
+        height:75px;
+        width:75px;
+        margin-top:-120px;
+    }
+}
