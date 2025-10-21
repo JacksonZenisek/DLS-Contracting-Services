@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DLS Contracting Services</title>
+        <link rel="stylesheet" href="dlscontractstyles.css">
+        <script src="dlscontractactions.js"></script>
+        <meta charset="UTF-8">
+        <meta name="author" content="Jackson Zenisek">
+        <meta name="Languages Used" content="HTML, CSS, JavaScript, PHP">
+    </head>
+    <body class="backimg" id="backimgalt">
+    <div class="contmainbod" id="contmainbodalt">
+        <button class="bttbutton" id="bttbuttonalt" onclick="gotothetopofthehomepage()"><img class="arrowimg" id="arrowimgalt" src="siteimages/bttbutton.jpg"></button>
+        <header class="mainhpg" id="mainhpgalt">
+            <div class="rbutcontainer" id="rbutcontaineralt">
+                <button class="pgrefbut" id="pgrefbutalt" onclick="refpage()"><img class="logimg" id="logimgbut" src="siteimages/officialdlscontractinglogo.png"></button>
+            </div>
+            <div class="selectioncontainer" id="selectionconatineralt">
+                <div class="aboutsecbut" id="aboutsecbutaalt">
+                    <button class="abtbut" id="abtbutalt" title="Go to About Section" onclick="gotoaboutpage()">About</button>
+                </div>
+                <div class="servsecbut" id="servsecbutaalt">
+                    <button class="servbut" id="servbutalt" onmouseover="showservicesmenu(),keeptrianglerotated()" onmouseout="hideservicesmenu(),returntriangle()">Services <span class="triang" id="triangalt">&#9652</span></button>
+                    <div class="slidingmenucontainer" id="slidingmenucontaineralt" onmouseover="showservicesmenu(),keeptrianglerotated()" onmouseout="hideservicesmenu(),returntriangle()">
+                        <br>
+                        <button class="roofbut" class="roofbutalt" onclick="gotoroofingpage()"><img class="starbullet" id="starbulletalt" src="siteimages/starmenu.png">Roofing</button>
+                         <br>
+                            <br>
+                        <button class="fencebut" class="fencebutalt" onclick="gotofencingpage()"><img class="starbullet" id="starbulletalt" src="siteimages/starmenu.png">Fencing</button>
+                        <br>
+                            <br>
+                        <button class="concrbut" class="concrbutalt" onclick="gotoconcretepage()"><img class="starbullet" id="starbulletalt" src="siteimages/starmenu.png">Concrete</button>
+                        <br>
+                            <br>
+                        <button class="paintbut" class="paintbutalt" onclick="gotopaintingpage()"><img class="starbullet" id="starbulletalt" src="siteimages/starmenu.png">Painting</button>
+                        <button class="sidingbut" class="sidingbutalt" onclick="gotosidingpage()"><img class="starbullet" id="starbulletalt" src="siteimages/starmenu.png">Siding</button>
+                        <br>
+                            <br>
+                        <button class="mworkbut" class="mworkbutalt" onclick="gotomworkpage()"><img class="starbullet" id="starbulletalt" src="siteimages/starmenu.png">Metal Work</button>
+                        <br>
+                            <br>
+                        <button class="mbuildbut" class="mbuildbutalt" onclick="gotombuildingspage()"><img class="starbullet" id="starbulletalt" src="siteimages/starmenu.png">Metal Buildings</button>
+                    </div>
+                </div>
+                <div class="gallerysecbut" id="gallerysecbutaalt">
+                    <button class="gallsecbut" id="gallsecbutalt" title="Go to Gallery Section" onclick="gotogallerypage()">Gallery</button>
+                </div>
+            </div>
+            <div class="mobileselectioncontainer" id="mobileselectioncontaineralt">
+                <button class="mobiledropdowniconiconcontainer" id="mobiledropdowniconiconcontaineralt" onclick="showmobilemenuhomepg()">
+                    <div class="mobiledropdowndivbar1" id="mobiledropdowndivbar1alt"></div>
+                    <br>
+                     <div class="mobiledropdowndivbar1" id="mobiledropdowndivbar1alt"></div>
+                    <span class="mobiledropdownicontriang" id="mobiledropdownicontriangalt">&#9701</span>
+                </button>
+                <div class="mobileselectiondropdownmenucontainer" id="mobileselectiondropdownmenucontaineralt">
+                    <br>
+                        <br>
+                            <br>
+                                <br>
+                    <button class="mobileaboutbutton" id="mobileaboutbuttonalt" onclick="gotoaboutpage()">About</button>
+                    <br>
+                        <br>
+                            <br>
+                                <br>
+                    <button class="mobileservicesbutton" id="mobileservicesbuttonalt" onclick="gotoservices()">Services</button>
+                    <br>
+                        <br>
+                            <br>
+                                <br>
+                    <button class="mobilegallerybutton" id="mobilegallerybuttonalt" onclick="gotogallerypage()">Gallery</button>
+                </div>
+            </div>
+        </header>
+        <br>
+            <br>
+        <div class="hpggreetingcontainer" id="hpggreetingcontaineralt">
+            <div class="greetingcontainer" id="greetingcontaineralt">
+                <br>
+                    <br>
+                        <br>
+                            <br>
+                                <br>
+                <p class="topgrethead" id="topgretheadalt">Welcome to DLS Contracting Services!</p>
+                <br>
+                <p class="greetpara" id="greetparaalt">We provide exceptional quality construction services for all landscape and building settings: residential, comercial, and industiral!
+            <br>
+                <br>
+            Customer satification is our top priotiry, and we want to help you fullfill your remodeling needs at an affordable cost.
+            </p>
+            </div>
+            <br>
+            <div class="hpggreetinginnercontainer1" id="hpggreetinginnercontainer1alt">
+                <h3 class="contactinfoheading" id="contactinfoheadingalt">Contact Information</h3>
+                <br>
+                <div class="phcontainer" id="phcontaineralt">
+                    <p class="dphone" id="dphonealt">Derek Smith</p>
+                    <br>
+                        <br>
+                    <div class="phonelinkcontainer" id="phonelinkcontaineralt">
+                        <a href="tel:512-818-9680" class="phonelink" id="phonelinkalt" title="Call Derek Smith">512-818-9680</a>
+                    </div>
+                </div>
+                <div class="emcontainer" id="emcontaineralt">
+                     <p class="mailhead" id="mailheadalt">Email</p>
+                        <br>
+                            <br>
+                    <div class="emlinkcontainer" id="emlinkcontaineralt">
+                        <a href="mailto:Dlscontracting1999@gmail.com" class="maillink" id="maillinkalt" title="Email DLS Contracting Services">Dlscontracting1999@gmail.com</a>
+                    </div>
+                </div>
+                <div class="fblinkcontainer" id="fblinkcontaineralt">
+                <a class="fblink" id="fblinkalt" href="https://www.facebook.com/profile.php?id=61576356297986"><img class="fblinkimg" id="fblinkimgalt" title="Go to DLS Contracting Services Facebook" src="siteimages/facebookicon.png"></a>
+                </div>
+                <br>
+                <div class="hoursofopscontainer" id="hoursofopscontaineralt">
+                    <h3 class="hoursofopsheading" id="hoursofopsheadingalt">Hours of Operation</h3>
+                    <div class="hoursofopsinnercontainer" id="hoursofopsinnercontaineralt">
+                        <ul class="hoursofopsmain" id="hoursofopsmainalt">
+                        <li>Mon - Fri: 8:00am - 5:00pm</li>
+                        <br>
+                        <li id="closedtimesalt">Sat - Sun: Closed</li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="frontpiccontainer" id="frontpiccontaineralt">
+            <img class="frontpagepic1" id="frontpagepic1alt" src="siteimages/frontpagepic1.jpg">
+            <img class="frontpagepic2" id="frontpagepic2alt" src="siteimages/frontpagepic2.jpg">
+            <img class="frontpagepic3" id="frontpagepic3alt" src="siteimages/frontpagepic3.jpg">
+            <img class="frontpagepic4" id="frontpagepic4alt" src="siteimages/frontpagepic4.jpg">
+
+        </div>
+        <br>
+        <div class="locationscontainer" id="locationscontaineralt">
+            <h3 class="locationheading" id="locationheadingalt">We provide construction services in <br>the Austin/Temple area</h3>
+            <br>
+        <iframe class="maploc" id="maplocalt" src="https://www.google.com/maps/d/embed?mid=1fnvFZhs27BzgFmPq87tPympTVjAtt_s&ehbc=2E312F" width="640" height="480"></iframe>
+    </div>
+        <br>
+        <div class="reviewscontainer" id="reviewscontaineralt">
+            <h4 class="fbreviewsheading" id="fbreviewsheadingalt">Facebook Reviews</h4>
+            <div class="fbrevcontainer" id="fbrevcontaineralt">
+                <iframe class="fbrev1" id="fbrev1alt" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Ftimothy.giebelhaus.7%2Fposts%2Fpfbid068V1gptKz8qcPZ88wjR6qfH7UUeTjRBqFPYYURAN2EG6R4VhuctDq4mAkTC9tAg3l&show_text=true&width=500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                    <div class="transone" id="transonealt"></div>
+                    <div class="transoneoone" id="transoneoonealt"></div>
+                    <br>
+                        <br>
+                <iframe class="fbrev2" id="fbrev2alt" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fjason.crumley.5%2Fposts%2Fpfbid0euirw54oyF3wtpVM9ZiDoukMg9nrgvP13hgNhgL6WgMLHGhAMrvLicA3BRb5MDfkl&show_text=true&width=500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                    <div class="transtwo" id="transtwoalt"></div>
+                    <div class="transthreeoone" id="transthreeoonealt"></div>
+                    <br>
+                        <br>
+                <iframe class="fbrev3" id="fbrev3alt" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpaden.brown.94%2Fposts%2Fpfbid0VKqrTVTxZxaTuaEujaEMnMo38tNUd9esadB4frPhpjJvpjgHUPkTzMuhW9wtDn9xl&show_text=true&width=500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                    <div class="transthree" id="transthreealt"></div>
+                    <div class="transthreeotwo" id="transthreeotwoalt"></div>
+            </div>
+        </div>
+        <br>
+        <div class="contactformcontainer" id="contactformcontaineralt">
+            <form action="sendmail.php" method="POST" class="cuscontform" id="cuscontformalt" enctype="multipart/form-data">
+                <h3 class="cuscontformheading" id="cuscontformheadingalt">Contact us for an estimate!</h3>
+                <br>
+                    <br>
+                <div class="fnamecontainer" id="fnamecontaineralt">
+                <label class="fnamelab" id="fnamelabalt">First Name:</label>
+                <br>
+                    <br>
+                        <br>
+                <input name="First Name" class="fnameinp" id="fnameinpalt" required>
+                </div>
+                <div class="lnamecontainer" id="lnamecontaineralt">
+                <label class="lnamelab" id="lnamelabalt">Last Name:</label>
+                <br>
+                    <br>
+                        <br>
+                <input name="Last Name" class="lnameinp" id="lnameinpalt" required>
+                </div>
+                <br>
+                <div class="emailformcontainer" id="emailformcontaineralt">
+                    <label class="emaillabel" id="emaillabelalt">Email:</label>
+                    <br>
+                        <br>
+                            <br>
+                    <input name="Email" type="email" class="emailinputform" id="emailinputformalt" required>
+                </div>
+                <br>
+                <div class="phonenumbform" id="phonenumbformalt">
+                    <label class="phonelabel" id="phonelabelalt">Phone:</label>
+                    <br>
+                        <br>
+                            <br>
+                    <input name="Phone Number" type="tel" class="phoneinputform" id="phoneinputformalt" maxlength="12">
+                    <br>
+                    <div class="formmessagecontainer" id="formmessagecontaineralt">
+                        <label class="messagebox" id="messageboxalt">Message:</label>
+                        <br>
+                            <br>
+                    <textarea name="Message" class="messagecontainer" id="messagecontaineralt"></textarea>
+                    </div>
+                    <br>
+                        <br>
+                            <br>
+                    <input type="submit" class="subbutform" id="subbutformalt" value="Submit">
+                </div>
+            </form>
+        </div>
+        <footer class="allpgsfooter" id="allpgsfooteralt">
+            <p class="footerinfopara">Developed by Jackson Zenisek<br>Last updated: 10/17/2025<br>&copy;2025 DLS Contracting Services</p>
+    </footer>
+    </div>
+</body>
+</html>
+<script>
+    const phoneInput = document.getElementById("phoneinputformalt");
+
+phoneInput.addEventListener("input", (e) => {
+  let value = e.target.value.replace(/\D/g, "");
+
+  // add dashes as user types
+  if (value.length > 3 && value.length <= 6)
+    value = `${value.slice(0,3)}-${value.slice(3)}`;
+  else if (value.length > 6)
+    value = `${value.slice(0,3)}-${value.slice(3,6)}-${value.slice(6,10)}`;
+
+  e.target.value = value;
+});
+</script>
