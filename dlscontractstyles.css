@@ -882,6 +882,7 @@ input.subbutform{
     font-size:30px;
     font-family:'Times New Roman';
     transition:0.5s;
+    color:black;
 }
 
 label.uploadpicslabel{
@@ -1005,6 +1006,7 @@ span.mobiledropdownicontriang{
     display:block;
     margin-top:-10px;
     margin-left:5px;
+    color:black;
 }
 
 p.footerinfopara{
