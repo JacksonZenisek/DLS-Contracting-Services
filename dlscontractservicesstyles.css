@@ -1,0 +1,358 @@
+body.backimg{
+    background-image: url("siteimages/galpic5.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+div.contmainbod{
+    background-color: rgb(131, 186, 207);
+    width:1900px;
+    height:auto;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+
+button.bttbutton{
+    background-color:transparent;
+    border:1px solid transparent;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 1px;
+    padding-right:200px;
+    padding-bottom:200px;
+    display: none;
+    height:150px;
+    width:150px;
+    transition:0.5s;
+}
+
+img.arrowimg{
+    height:150px;
+    width:150px;
+}
+
+header.mainhpg{
+    border:1px solid transparent;
+    margin:-8px;
+    height:550px;
+    width:auto;
+}
+
+div.rbutcontainer{
+    height:350px;
+    width:450px;
+    border:1px solid transparent;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+
+button.pgrefservbut{
+    height:350px;
+    width:450px;
+    background-color:transparent;
+    border:1px solid transparent;
+    transition:0.3s;
+}
+
+button.pgrefservbut:hover{
+    cursor:pointer;
+    opacity:80%;
+}
+
+img.logimg{
+    height:350px;
+    width:350px;
+}
+
+div.selectioncontainer{
+    height:100px;
+    width:auto;
+    border:1px solid transparent;
+    background-color:rgb(136, 80, 80);
+    margin:7px;
+}
+
+div.aboutsecbut{
+    height:75px;
+    width:150px;
+    border:1px solid transparent;
+    margin-top:10px;
+    margin-left:350px;
+}
+
+div.servsecbut{
+    height:75px;
+    width:210px;
+    border:1px solid transparent;
+    margin-left:265px;
+    margin-top:-75px;
+     margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+
+span.triang{
+    font-size:35px;
+    display:inline-block;
+    transition:0.5s;
+    position:relative; margin-right: -50px;
+}
+
+div.gallerysecbut{
+    height:75px;
+    width:150px;
+    border:1px solid transparent;
+    float: right;
+    margin-right:350px;
+    margin-top:-75px;
+}
+
+div.fbsecbut{
+    height:125px;
+    width:150px;
+    border:1px solid transparent;
+    float:right;
+    margin-left:500px;
+    margin-top:-128px;
+}
+
+button.backtohomebut{
+    height:75px;
+    width:150px;
+    border:1px solid black;
+    background-color:transparent;
+    border:1px solid transparent;
+    font-size:40px;
+    font-family:Impact;
+    color:black;
+    transition:0.3s;
+}
+
+button.backtohomebut:hover{
+    color:rgb(51, 51, 51);
+    cursor:pointer;
+}
+
+button.servbut{
+    height:75px;
+    width:160px;
+    border:1px solid transparent;
+    background-color:transparent;
+    font-size:40px;
+    font-family:Impact;
+    color:black;
+    transition:0.3s;
+    text-align:center;
+}
+
+button.servbut:hover{
+    color:rgb(51, 51, 51);
+    cursor:pointer;
+}
+
+button.gallsecbut{
+    height:75px;
+    width:150px;
+    border:1px solid transparent;
+    background-color:transparent;
+    border:1px solid transparent;
+    font-size:40px;
+    font-family:Impact;
+    color:black;
+    transition:0.3s;
+}
+
+button.gallsecbut:hover{
+    color:rgb(51, 51, 51);
+    cursor:pointer;
+}
+
+img.fblinkimg{
+    height:75px;
+    width:75px;
+    transition:0.3s;
+    float:right;
+    margin-right:400px;
+    margin-top:-150px;
+}
+
+img.fblinkimg:hover{
+    cursor:pointer;
+    opacity:80%;
+}
+
+div.slidingmenucontainer{
+    height:0;
+    width:410px;
+    background-color:rgb(136, 80, 80);
+    border-radius:5px;
+    float:right;
+    margin-right:450px;
+    overflow-y:hidden;
+    transition:0.5s;
+    position:absolute;
+    opacity:200%;
+}
+
+button.roofbut{
+    height:65px;
+    width:200px;
+    border:1px solid transparent;
+    background-color: transparent;
+    color:gold;
+    font-size:30px;
+    font-family:Impact;
+}
+
+button.roofbut:hover{
+    cursor:pointer;
+    text-decoration:underline solid gold;
+    text-underline-offset: 10px;
+}
+
+button.fencebut{
+    height:65px;
+    width:200px;
+    border:1px solid transparent;
+    background-color: transparent;
+    color:gold;
+    font-size:30px;
+    font-family:Impact;
+    margin-left:-2px;
+}
+
+button.fencebut:hover{
+    cursor:pointer;
+    text-decoration:underline solid gold;
+    text-underline-offset: 10px;
+}
+
+button.concrbut{
+    height:65px;
+    width:200px;
+    border:1px solid transparent;
+    background-color: transparent;
+    color:gold;
+    font-size:30px;
+    font-family:Impact;
+    margin-left:4px;
+}
+
+button.concrbut:hover{
+    cursor:pointer;
+    text-decoration:underline solid gold;
+    text-underline-offset: 10px;
+}
+
+button.paintbut{
+    height:65px;
+    width:200px;
+    border:1px solid transparent;
+    background-color: transparent;
+    color:gold;
+    font-size:30px;
+    font-family:Impact;
+}
+
+button.paintbut:hover{
+    cursor:pointer;
+    text-decoration:underline solid gold;
+    text-underline-offset: 10px;
+}
+
+button.sidingbut{
+    height:65px;
+    width:150px;
+    border:1px solid transparent;
+    background-color: transparent;
+    color:gold;
+    font-size:30px;
+    font-family:Impact;
+    float:right;
+    margin-top:-250px;
+    margin-right:56px;
+}
+
+button.sidingbut:hover{
+    cursor:pointer;
+    text-decoration:underline solid gold;
+    text-underline-offset: 10px;
+}
+
+button.mworkbut{
+    height:65px;
+    width:200px;
+    border:1px solid transparent;
+    background-color: transparent;
+    color:gold;
+    font-size:30px;
+    font-family:Impact;
+    float:right;
+    margin-top:-250px;
+}
+
+button.mworkbut:hover{
+    cursor:pointer;
+    text-decoration:underline solid gold;
+    text-underline-offset: 10px;
+}
+
+button.mbuildbut{
+    height:65px;
+    width:200px;
+    border:1px solid transparent;
+    background-color: transparent;
+    color:gold;
+    font-size:20px;
+    font-family:Impact;
+    float:right;
+    margin-top:-200px;
+    margin-right:5px;
+}
+
+button.mbuildbut:hover{
+    cursor:pointer;
+    text-decoration:underline solid gold;
+    text-underline-offset: 10px;
+}
+
+img.starbullet{
+    height:30px;
+    width:30px;
+    margin-right:10px;
+}
+
+div.servicesmaincontainer{
+    height:2500px;
+    width:auto;
+    border:1px solid transparent;
+}
+
+
+footer.allpgsfooter{
+    height:170px;
+    width:auto;
+    border:1px solid transparent;
+    background-color:rgb(136, 80, 80);
+}
+
+p.footerinfopara{
+    font-size:25px;
+    font-family:Impact;
+    color:white;
+}
+
+@media (max-width:2050px){
+    #contmainbodalt{
+        width:1400px;
+    }
+}

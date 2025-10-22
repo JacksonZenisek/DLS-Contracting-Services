@@ -1,0 +1,1058 @@
+body.backimg{
+    background-image: url("siteimages/galpic5.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+div.contmainbod{
+    background-color: rgb(34, 83, 102);
+    width:1900px;
+    height:auto;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+
+button.bttbutton{
+    background-color:transparent;
+    border:1px solid transparent;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 1px;
+    padding-right:200px;
+    padding-bottom:200px;
+    display: none;
+    height:150px;
+    width:150px;
+    transition:0.5s;
+}
+
+img.arrowimg{
+    height:150px;
+    width:150px;
+}
+
+header.mainhpg{
+    border:1px solid transparent;
+    margin:1px;
+    margin-top:-10px;
+    height:400px;
+    width:auto;
+    background-color:white;
+}
+
+div.rbutcontainer{
+    height:350px;
+    width:450px;
+    border:1px solid transparent;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+
+button.pgrefservbut{
+    height:350px;
+    width:450px;
+    background-color:transparent;
+    border:1px solid transparent;
+    transition:0.3s;
+}
+
+button.pgrefservbut:hover{
+    cursor:pointer;
+    opacity:80%;
+}
+
+img.logimg{
+    height:345px;
+    width:350px;
+}
+
+div.selectioncontainer{
+    height:100px;
+    width:auto;
+    border:1px solid transparent;
+    background-color:rgb(136, 80, 80);
+    margin:-1px;
+}
+
+div.aboutsecbut{
+    height:75px;
+    width:150px;
+    border:1px solid transparent;
+    margin-top:10px;
+    margin-left:350px;
+}
+
+div.servsecbut{
+    height:75px;
+    width:210px;
+    border:1px solid transparent;
+    margin-left:265px;
+    margin-top:-75px;
+     margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+
+span.triang{
+    font-size:35px;
+    display:inline-block;
+    transition:0.5s;
+    position:relative; margin-right: -50px;
+}
+
+div.gallerysecbut{
+    height:75px;
+    width:150px;
+    border:1px solid transparent;
+    float: right;
+    margin-right:350px;
+    margin-top:-75px;
+}
+
+div.fbsecbut{
+    height:125px;
+    width:150px;
+    border:1px solid transparent;
+    float:right;
+    margin-left:500px;
+    margin-top:-128px;
+}
+
+button.abtbut{
+    height:75px;
+    width:150px;
+    border:1px solid black;
+    background-color:transparent;
+    border:1px solid transparent;
+    font-size:40px;
+    font-family:Impact;
+    color:black;
+    transition:0.3s;
+}
+
+button.backtohomebut:hover{
+    color:rgb(51, 51, 51);
+    cursor:pointer;
+}
+
+button.servbut{
+    height:75px;
+    width:160px;
+    border:1px solid transparent;
+    background-color:transparent;
+    font-size:40px;
+    font-family:Impact;
+    color:black;
+    transition:0.3s;
+    text-align:center;
+}
+
+button.servbut:hover{
+    color:rgb(51, 51, 51);
+    cursor:pointer;
+}
+
+button.gallsecbut{
+    height:75px;
+    width:150px;
+    border:1px solid transparent;
+    background-color:transparent;
+    border:1px solid transparent;
+    font-size:40px;
+    font-family:Impact;
+    color:black;
+    transition:0.3s;
+}
+
+button.gallsecbut:hover{
+    color:rgb(51, 51, 51);
+    cursor:pointer;
+}
+
+img.fblinkimg{
+    height:75px;
+    width:75px;
+    transition:0.3s;
+    float:right;
+    margin-right:400px;
+    margin-top:-150px;
+}
+
+img.fblinkimg:hover{
+    cursor:pointer;
+    opacity:80%;
+}
+
+div.slidingmenucontainer{
+    height:0;
+    width:410px;
+    background-color:rgb(136, 80, 80);
+    border-radius:5px;
+    float:right;
+    margin-right:450px;
+    overflow-y:hidden;
+    transition:0.5s;
+    position:absolute;
+    opacity:200%;
+}
+
+button.roofbut{
+    height:65px;
+    width:200px;
+    border:1px solid transparent;
+    background-color: transparent;
+    color:gold;
+    font-size:30px;
+    font-family:Impact;
+}
+
+button.roofbut:hover{
+    cursor:pointer;
+    text-decoration:underline solid gold;
+    text-underline-offset: 10px;
+}
+
+button.fencebut{
+    height:65px;
+    width:200px;
+    border:1px solid transparent;
+    background-color: transparent;
+    color:gold;
+    font-size:30px;
+    font-family:Impact;
+    margin-left:-2px;
+}
+
+button.fencebut:hover{
+    cursor:pointer;
+    text-decoration:underline solid gold;
+    text-underline-offset: 10px;
+}
+
+button.concrbut{
+    height:65px;
+    width:200px;
+    border:1px solid transparent;
+    background-color: transparent;
+    color:gold;
+    font-size:30px;
+    font-family:Impact;
+    margin-left:4px;
+}
+
+button.concrbut:hover{
+    cursor:pointer;
+    text-decoration:underline solid gold;
+    text-underline-offset: 10px;
+}
+
+button.paintbut{
+    height:65px;
+    width:200px;
+    border:1px solid transparent;
+    background-color: transparent;
+    color:gold;
+    font-size:30px;
+    font-family:Impact;
+}
+
+button.paintbut:hover{
+    cursor:pointer;
+    text-decoration:underline solid gold;
+    text-underline-offset: 10px;
+}
+
+button.sidingbut{
+    height:65px;
+    width:150px;
+    border:1px solid transparent;
+    background-color: transparent;
+    color:gold;
+    font-size:30px;
+    font-family:Impact;
+    float:right;
+    margin-top:-250px;
+    margin-right:56px;
+}
+
+button.sidingbut:hover{
+    cursor:pointer;
+    text-decoration:underline solid gold;
+    text-underline-offset: 10px;
+}
+
+button.mworkbut{
+    height:65px;
+    width:200px;
+    border:1px solid transparent;
+    background-color: transparent;
+    color:gold;
+    font-size:30px;
+    font-family:Impact;
+    float:right;
+    margin-top:-250px;
+}
+
+button.mworkbut:hover{
+    cursor:pointer;
+    text-decoration:underline solid gold;
+    text-underline-offset: 10px;
+}
+
+button.mbuildbut{
+    height:65px;
+    width:200px;
+    border:1px solid transparent;
+    background-color: transparent;
+    color:gold;
+    font-size:20px;
+    font-family:Impact;
+    float:right;
+    margin-top:-200px;
+    margin-right:5px;
+}
+
+button.mbuildbut:hover{
+    cursor:pointer;
+    text-decoration:underline solid gold;
+    text-underline-offset: 10px;
+}
+
+img.starbullet{
+    height:30px;
+    width:30px;
+    margin-right:10px;
+}
+
+div.servicesmaincontainer{
+    height:10200px;
+    width:auto;
+    border:1px solid transparent;
+}
+
+
+footer.allpgsfooter{
+    height:178px;
+    width:auto;
+    border:1px solid transparent;
+    background-color:rgb(136, 80, 80);
+}
+
+div.servicesheadingcontainer{
+    height:100px;
+    width:600px;
+    border:1px solid transparent;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+    margin-top:140px;
+}
+
+img.paintservpic{
+    height:600px;
+    width:450px;
+}
+
+img.fenceservpic{
+    height:600px;
+    width:450px;
+}
+
+img.roofingservpic{
+    height:600px;
+    width:450px;
+}
+
+img.sidingservpic{
+    height:600px;
+    width:450px;
+}
+
+img.mbuildingsservpic{
+    height:600px;
+    width:450px;
+}
+
+img.mworkservdisppic{
+    height:600px;
+    width:450px;
+}
+
+img.concservdisppic{
+    height:600px;
+    width: 450px;
+}
+
+img.servicesstarone{
+    height:100px;
+    width:100px;
+}
+
+img.servicesstartwo{
+    height:100px;
+    width:100px;
+    float:right;
+    margin-top:-155px;
+}
+
+h4.servicesmainheading{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    margin-top:-75px;
+}
+
+div.roofingmaincontainer{
+    height:1100px;
+    width:1200px;
+    border:5px solid white;
+    background-color:rgb(34, 83, 102);
+    margin-top:250px;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+    box-shadow:0 4px 150px black;
+}
+
+div.roofingparacontainer{
+    height:600px;
+    width:450px;
+    border:5px solid white;
+    background-color:rgb(124, 175, 196);
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+
+div.roofingpiccontainer{
+    height:250px;
+    width:900px;
+    border:1px solid transparent;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+
+h2.roofingheading{
+    font-size:40px;
+    font-family:'Times New Roman';
+    text-align:center;
+    color:white;
+}
+
+p.roofingparadesc{
+    font-size:35px;
+    color:white;
+    text-align:center;
+    font-family:'Times New Roman';
+}
+
+button.roofingestimatebutton{
+    height:75px;
+    width:325px;
+    color:white;
+    border:3px solid white;
+    background-color:transparent;
+    font-size:30px;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+    transition:0.5s;
+}
+
+button.roofingestimatebutton:hover{
+    cursor:pointer;
+    color:black;
+    border:5px solid rgb(116, 192, 192);
+    background-color:white;
+}
+
+div.fencingmaincontainer{
+    height:1100px;
+    width:1200px;
+    border:5px solid white;
+    background-color:rgb(34, 83, 102);
+    margin-top:250px;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+    box-shadow:0 4px 150px black;
+}
+
+div.fencingparacontainer{
+    height:600px;
+    width:450px;
+    border:5px solid black;
+    background-color:rgb(124, 175, 196);
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+
+div.fencingpiccontainer{
+    height:250px;
+    width:900px;
+    border:1px solid transparent;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+
+h2.fencingheading{
+    font-size:40px;
+    font-family:'Times New Roman';
+    text-align:center;
+    color:white;
+}
+
+p.fencingparadesc{
+    font-size:35px;
+    color:white;
+    text-align:center;
+    font-family:'Times New Roman';
+}
+
+button.fencingestimatebutton{
+    height:75px;
+    width:325px;
+    color:white;
+    border:3px solid white;
+    background-color:transparent;
+    font-size:30px;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+    transition:0.5s;
+}
+
+button.fencingestimatebutton:hover{
+    cursor:pointer;
+    color:black;
+    border:5px solid rgb(116, 192, 192);
+    background-color:white;
+}
+
+div.concretemaincontainer{
+    height:1100px;
+    width:1200px;
+    border:5px solid white;
+    background-color:rgb(34, 83, 102);
+    margin-top:250px;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+    box-shadow:0 4px 150px black;
+}
+
+div.concreteparacontainer{
+    height:600px;
+    width:450px;
+    border:5px solid black;
+    background-color:rgb(124, 175, 196);
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+
+div.concretepiccontainer{
+    height:250px;
+    width:900px;
+    border:1px solid transparent;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+
+h2.concreteheading{
+    font-size:40px;
+    font-family:'Times New Roman';
+    text-align:center;
+    color:white;
+}
+
+p.concreteparadesc{
+    font-size:35px;
+    color:white;
+    text-align:center;
+    font-family:'Times New Roman';
+}
+
+button.concreteestimatebutton{
+    height:75px;
+    width:325px;
+    color:white;
+    border:3px solid white;
+    background-color:transparent;
+    font-size:30px;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+    transition:0.5s;
+}
+
+button.concreteestimatebutton:hover{
+    cursor:pointer;
+    color:black;
+    border:5px solid rgb(116, 192, 192);
+    background-color:white;
+}
+
+
+div.paintingmaincontainer{
+    height:1100px;
+    width:1200px;
+    border:5px solid white;
+    background-color:rgb(34, 83, 102);
+    margin-top:250px;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+    box-shadow:0 4px 150px black;
+}
+
+div.paintingparacontainer{
+    height:600px;
+    width:450px;
+    border:5px solid black;
+    background-color:rgb(124, 175, 196);
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+
+div.paintingpiccontainer{
+    height:250px;
+    width:900px;
+    border:1px solid transparent;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+
+h2.paintingheading{
+    font-size:40px;
+    font-family:'Times New Roman';
+    text-align:center;
+    color:white;
+}
+
+p.paintingparadesc{
+    font-size:35px;
+    color:white;
+    text-align:center;
+    font-family:'Times New Roman';
+}
+
+button.paintingestimatebutton{
+    height:75px;
+    width:325px;
+    color:white;
+    border:3px solid white;
+    background-color:transparent;
+    font-size:30px;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+    transition:0.5s;
+}
+
+button.paintingestimatebutton:hover{
+    cursor:pointer;
+    color:black;
+    border:5px solid rgb(116, 192, 192);
+    background-color:white;
+}
+
+div.sidingmaincontainer{
+    height:1100px;
+    width:1200px;
+    border:5px solid white;
+    background-color:rgb(34, 83, 102);
+    margin-top:250px;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+    box-shadow:0 4px 150px black;
+}
+
+div.sidingparacontainer{
+    height:600px;
+    width:450px;
+    border:5px solid black;
+    background-color:rgb(124, 175, 196);
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+
+div.sidingpiccontainer{
+    height:250px;
+    width:900px;
+    border:1px solid transparent;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+
+h2.sidingheading{
+    font-size:40px;
+    font-family:'Times New Roman';
+    text-align:center;
+    color:white;
+}
+
+p.sidingparadesc{
+    font-size:35px;
+    color:white;
+    text-align:center;
+    font-family:'Times New Roman';
+}
+
+button.sidingestimatebutton{
+    height:75px;
+    width:325px;
+    color:white;
+    border:3px solid white;
+    background-color:transparent;
+    font-size:30px;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+    transition:0.5s;
+}
+
+button.sidingestimatebutton:hover{
+    cursor:pointer;
+    color:black;
+    border:5px solid rgb(116, 192, 192);
+    background-color:white;
+}
+
+div.mworkmaincontainer{
+    height:1100px;
+    width:1200px;
+    border:5px solid white;
+    background-color:rgb(34, 83, 102);
+    margin-top:250px;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+    box-shadow:0 4px 150px black;
+}
+
+div.mworkparacontainer{
+    height:600px;
+    width:450px;
+    border:5px solid black;
+    background-color:rgb(124, 175, 196);
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+
+div.mworkpiccontainer{
+    height:250px;
+    width:900px;
+    border:1px solid transparent;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+
+h2.mworkheading{
+    font-size:40px;
+    font-family:'Times New Roman';
+    text-align:center;
+    color:white;
+}
+
+p.mworkparadesc{
+    font-size:35px;
+    color:white;
+    text-align:center;
+    font-family:'Times New Roman';
+}
+
+button.mworkestimatebutton{
+    height:75px;
+    width:325px;
+    color:white;
+    border:3px solid white;
+    background-color:transparent;
+    font-size:30px;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+    transition:0.5s;
+}
+
+button.mworkestimatebutton:hover{
+    cursor:pointer;
+    color:black;
+    border:5px solid rgb(116, 192, 192);
+    background-color:white;
+}
+
+div.mbuildingsmaincontainer{
+    height:1100px;
+    width:1200px;
+    border:5px solid white;
+    background-color:rgb(34, 83, 102);
+    margin-top:250px;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+    box-shadow:0 4px 150px black;
+}
+
+div.mbuildingsparacontainer{
+    height:600px;
+    width:450px;
+    border:5px solid black;
+    background-color:rgb(124, 175, 196);
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+
+div.mbuildingspiccontainer{
+    height:250px;
+    width:900px;
+    border:1px solid transparent;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+
+h2.mbuidingsheading{
+    font-size:40px;
+    font-family:'Times New Roman';
+    text-align:center;
+    color:white;
+}
+
+p.mbuildingsparadesc{
+    font-size:35px;
+    color:white;
+    text-align:center;
+    font-family:'Times New Roman';
+}
+
+button.mbuildingsestimatebutton{
+    height:75px;
+    width:325px;
+    color:white;
+    border:3px solid white;
+    background-color:transparent;
+    font-size:30px;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+    transition:0.5s;
+}
+
+button.mbuildingsestimatebutton:hover{
+    cursor:pointer;
+    color:black;
+    border:5px solid rgb(116, 192, 192);
+    background-color:white;
+}
+
+div.mobiledropdowndivbar1{
+    height:8px;
+    width:75px;
+    border:1px solid black;
+    background-color:black;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+
+button.mobiledropdowniconiconcontainer{
+    height:100px;
+    width:100px;
+    border:1px solid transparent;
+    margin-right:auto;
+    margin-left:auto;
+    display:none;
+    margin-top:10px;
+    text-align:center;
+    margin-top:20px;
+    background-color:transparent;
+    transition:0.5s;
+}
+
+div.mobileselectiondropdownmenucontainer{
+    height:0;
+    width:auto;
+    background-color:rgb(136, 80, 80);
+    position:relative;
+    transition:0.5s;
+    overflow-y:hidden;
+}
+
+button.mobileaboutbutton{
+    height: 100px;
+    width:300px;
+    color:white;
+    border:1px solid transparent;
+    display:block;
+    margin-right:auto;
+    margin-left:auto;
+    font-size:45px;
+    background-color:transparent;
+}
+
+button.mobilegallerybutton{
+    height: 100px;
+    width:300px;
+    color:white;
+    border:1px solid transparent;
+    display:block;
+    margin-right:auto;
+    margin-left:auto;
+    font-size:45px;
+    background-color:transparent;
+}
+
+button.mobileservicesbutton{
+    height: 100px;
+    width:300px;
+    border:1px solid transparent;
+    display:block;
+    margin-right:auto;
+    margin-left:auto;
+    font-size:45px;
+    color:white;
+    background-color:transparent;
+}
+
+span.mobiledropdownicontriang{
+    font-size:50px;
+    transform: rotate(135deg);
+    position:relative;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+    margin-top:-10px;
+    margin-left:5px;
+    color:black;
+}
+
+p.footerinfopara{
+    font-size:25px;
+    font-family:Impact;
+    color:white;
+
+}
+
+@media (max-width:2050px){
+    #contmainbodalt{
+        width:1400px;
+    }
+}
+
+@media (max-width:2050px){
+    #roofingmaincontaineralt,#fencingmaincontaineralt,#concretemaincontaineralt,#paintingmaincontaineralt,#sidingmaincontaineralt,#mworkmaincontaineralt,#mbuildingsmaincontaineralt{
+        width:1000px;
+    }
+}
+
+@media (max-width:2050px){
+    #aboutsecbutaalt{
+        margin-left:200px;
+    }
+}
+
+@media (max-width:2050px){
+    #gallerysecbutaalt{
+        margin-right:200px;
+    }
+}
+
+
+
+
+@media (max-width:1550px){
+    #contmainbodalt{
+        width:1100px;
+        height:11400px;
+    }
+}
+
+@media (max-width:1550px){
+    #servicesmaincontaineralt{
+        width:1100px;
+        height:1200px;
+    }
+}
+
+@media (max-width:1550px){
+    #aboutsecbutaalt{
+        margin-left:100px;
+    }
+}
+
+@media (max-width:1550px){
+    #gallerysecbutaalt{
+        margin-right:100px;
+    }
+}
+
+@media (max-width:1550px){
+    #allpgsfooteralt{
+        margin-top:700px;
+    }
+}
+
+@media (max-width:1200px){
+    #contmainbodalt{
+        width:800px;
+    }
+}
+
+@media (max-width:1200px){
+    #mobileselectioncontaineralt{
+        display:block;
+        height:120px;
+        width:auto;
+        border:1px solid black;
+        background-color:rgb(136, 80, 80);
+        margin:-3px;
+    }
+}
+
+@media (max-width:1200px){
+    #mobiledropdowniconiconcontaineralt{
+        display:block;
+        width:300px;
+    }
+}
+
+@media (max-width:1200px){
+    #selectionconatineralt{
+        display:none;
+    }
+}
+
+@media (max-width:1200px){
+    #roofingmaincontaineralt,#fencingmaincontaineralt,#concretemaincontaineralt,#paintingmaincontaineralt,#sidingmaincontaineralt,#mworkmaincontaineralt,#mbuildingsmaincontaineralt{
+        width:700px;
+        height:1200px;
+    }
+}
+
+@media (max-width:1200px){
+    #roofingpiccontaineralt,#fencingpiccontaineralt,#concretepiccontaineralt,#paintingpiccontainer,#sidingpiccontaineralt,#mworkpiccontaineralt,#mbuildingspiccontaineralt{
+        width:600px;
+    }
+}
