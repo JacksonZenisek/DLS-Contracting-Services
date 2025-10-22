@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DLS Contracting Services: Gallery</title>
+        <link rel="stylesheet" href="gallerystyles.css">
+        <script src="dlscontractactions.js"></script>
+        <meta charset="UTF-8">
+        <meta name="author" content="Jackson Zenisek">
+        <meta name="Languages Used" content="HTML, CSS, JavaScript, PHP">
+    </head>
+     <body class="backimg" id="backimgalt">
+    <div class="contmainbod" id="contmainbodalt">
+        <button class="bttbutton" id="bttbuttonalt" onclick="gotothetopofthehomepage()"><img class="arrowimg" id="arrowimgalt" src="siteimages/bttbutton.jpg"></button>
+        <header class="mainhpg" id="mainhpgalt">
+            <div class="rbutcontainer" id="rbutcontaineralt">
+                <button class="pgrefbut" id="pgrefbutalt" onclick="gobacktohomepageservref()"><img class="logimg" id="logimgbut" src="siteimages/officialdlscontractinglogo.png"></button>
+            </div>
+            <div class="selectioncontainer" id="selectionconatineralt">
+                <div class="aboutsecbut" id="aboutsecbutaalt">
+                    <button class="abtbut" id="abtbutalt" title="Go to About Section" onclick="gotoaboutpage()">About</button>
+                </div>
+                <div class="servsecbut" id="servsecbutaalt">
+                    <button class="servbut" id="servbutalt" onmouseover="showservicesmenu(),keeptrianglerotated()" onmouseout="hideservicesmenu(),returntriangle()">Services <span class="triang" id="triangalt">&#9652</span></button>
+                    <div class="slidingmenucontainer" id="slidingmenucontaineralt" onmouseover="showservicesmenu(),keeptrianglerotated()" onmouseout="hideservicesmenu(),returntriangle()">
+                        <br>
+                        <button class="roofbut" class="roofbutalt" onclick="gotoroofingpage()"><img class="starbullet" id="starbulletalt" src="siteimages/starmenu.png">Roofing</button>
+                         <br>
+                            <br>
+                        <button class="fencebut" class="fencebutalt" onclick="gotofencingpage()"><img class="starbullet" id="starbulletalt" src="siteimages/starmenu.png">Fencing</button>
+                        <br>
+                            <br>
+                        <button class="concrbut" class="concrbutalt" onclick="gotoconcretepage()"><img class="starbullet" id="starbulletalt" src="siteimages/starmenu.png">Concrete</button>
+                        <br>
+                            <br>
+                        <button class="paintbut" class="paintbutalt" onclick="gotopaintingpage()"><img class="starbullet" id="starbulletalt" src="siteimages/starmenu.png">Painting</button>
+                        <button class="sidingbut" class="sidingbutalt" onclick="gotosidingpage()"><img class="starbullet" id="starbulletalt" src="siteimages/starmenu.png">Siding</button>
+                        <br>
+                            <br>
+                        <button class="mworkbut" class="mworkbutalt" onclick="gotomworkpage()"><img class="starbullet" id="starbulletalt" src="siteimages/starmenu.png">Metal Work</button>
+                        <br>
+                            <br>
+                        <button class="mbuildbut" class="mbuildbutalt" onclick="gotombuildingspage()"><img class="starbullet" id="starbulletalt" src="siteimages/starmenu.png">Metal Buildings</button>
+                    </div>
+                </div>
+                <div class="gallerysecbut" id="gallerysecbutaalt">
+                    <button class="gallsecbut" id="gallsecbutalt" title="Go to Gallery Section">Gallery</button>
+                </div>
+            </div>
+             <div class="mobileselectioncontainer" id="mobileselectioncontaineralt">
+                <button class="mobiledropdowniconiconcontainer" id="mobiledropdowniconiconcontaineralt" onclick="showmobilemenuhomepg()">
+                    <div class="mobiledropdowndivbar1" id="mobiledropdowndivbar1alt"></div>
+                    <br>
+                     <div class="mobiledropdowndivbar1" id="mobiledropdowndivbar1alt"></div>
+                    <span class="mobiledropdownicontriang" id="mobiledropdownicontriangalt">&#9701</span>
+                </button>
+                <div class="mobileselectiondropdownmenucontainer" id="mobileselectiondropdownmenucontaineralt">
+                    <br>
+                        <br>
+                            <br>
+                                <br>
+                    <button class="mobileaboutbutton" id="mobileaboutbuttonalt" onclick="gotoaboutpage()">About</button>
+                    <br>
+                        <br>
+                            <br>
+                                <br>
+                    <button class="mobileservicesbutton" id="mobileservicesbuttonalt" onclick="gotoservices()">Services</button>
+                    <br>
+                        <br>
+                            <br>
+                                <br>
+                    <button class="mobilegallerybutton" id="mobilegallerybuttonalt" onclick="gotogallerypage()">Gallery</button>
+                </div>
+            </div>
+        </header>
+        <div class="gallerysectionmaincontainer" id="gallerysectionmaincontaineralt">
+            <div class="photogalleryheadingcontainer" id="photogalleryheadingcontainer">
+                <img class="galleryheadingstarone" id="galleryheadingstaronealt" src="siteimages/starmenu.png"><h4 class="photogallerymainheading" id="photogallerymainheadingalt">DLS Contractring Services<br>Photo Gallery</h4><img class="galleryheadingstartwo" id="galleryheadingstartwoalt" src="siteimages/starmenu.png">
+            </div>
+            <br>
+                <br>
+                    <br>
+            <div class="roofingphotoscontainer" id="roofingphotoscontaineralt">
+                <h3 class="roofingheadingphotos" id="roofingheadingphotosalt">Roofing Photos</h3>
+                <div class="roofingphotocontainerone" id="roofingphotocontaineronealt">
+                    <img class="roofinggalpic1" id="roofinggalpic1alt" src="siteimages/roofinggalpic1.jpg">
+                </div>
+                <div class="roofingphotocontainertwo" id="roofingphotocontainertwoalt">
+                    <img class="roofinggalpic2" id="roofinggalpic2alt" src="siteimages/roofinggalpic2.jpg">
+                </div>
+            </div>
+            <br>
+                <br>
+            <div class="fencingphotoscontainer" id="fencingphotoscontaineralt">
+                <h3 class="fencingheadingphotos" id="fencingheadingphotosalt">Fencing Photos</h3>
+                <div class="fencingphotocontainerone" id="fencingphotocontaineronealt">
+                    <img class="fencegalimage1" id="fencegalimage1alt" src="siteimages/fencegalpic1.jpg">
+                </div>
+                <div class="fencingphotocontainertwo" id="fencingphotocontainertwoalt">
+                    <img class="fencegalimage2" id="fencegalimage2alt" src="siteimages/fencegalpic2.jpg">
+                </div>
+                <div class="fencingphotocontainerthree" id="fencingphotocontainerthreealt">
+                    <img class="fencegalimage3" id="fencegalimage3alt" src="siteimages/fencegalpic3.jpg">
+                </div>
+                <div class="fencingphotocontainerfour" id="fencingphotocontainerfouralt">
+                    <img class="fencegalimage4" id="fencegalimage4alt" src="siteimages/fencegalpic4.jpg">
+                </div>
+                <div class="fencingphotocontainerfive" id="fencingphotocontainerfivealt">
+                    <img class="fencegalimage5" id="fencegalimage5alt" src="siteimages/fencegalpic5.jpg">
+                </div>
+                <div class="fencingphotocontainersix" id="fencingphotocontainersixalt">
+                    <img class="fencegalimage6" id="fencegalimage6alt" src="siteimages/fencegalpic6.jpg">
+                </div>
+                <div class="fencingphotocontainerseven" id="fencingphotocontainersevenalt">
+                    <img class="fencegalimage7" id="fencegalimage7alt" src="siteimages/fencegalpic7.jpg">
+                </div>
+                <div class="fencingphotocontainereight" id="fencingphotocontainereightalt">
+                    <img class="fencegalimage8" id="fencegalimage8alt" src="siteimages/fencegalpic8.jpg">
+                </div>
+            </div>
+            <br>
+                <br>
+            <div class="concretephotoscontainer" id="concretephotoscontaineralt">
+                <h3 class="concreteheadingphotos" id="concreteheadingphotosalt">Concrete Photos</h3>
+                <div class="concretephotocontainerone" id="concretephotocontaineronealt">
+                    <img class="concretegalimage1" id="concretegalimage1alt" src="siteimages/concretegalpic1.jpg">
+                </div>
+                <div class="concretephotocontainertwo" id="concretephotocontainertwoalt">
+                    <img class="concretegalimage2" id="concretegalimage2alt" src="siteimages/concretegalpic2.jpg">
+                </div>
+                <div class="concretephotocontainerthree" id="concretephotocontainerthreealt">
+                    <img class="concretegalimage3" id="concretegalimage3alt" src="siteimages/concretegalpic3.jpg">
+                </div>
+                <div class="concretephotocontainerfour" id="concretephotocontainerfouralt">
+                    <img class="concretegalimage4" id="concretegalimage4alt" src="siteimages/concretegalpic4.jpg">
+                </div>
+            </div>
+            <br>
+                <br>
+            <div class="mworkphotoscontainer" id="mworkphotoscontaineralt">
+                <h3 class="mworkheadingphotos" id="mworkheadingphotosalt">Metal Work Photos</h3>
+                <div class="mworkphotocontainerone" id="mworkphotocontaineronealt">
+                    <img class="mworkgalimage1" id="mworkgalimage1alt" src="siteimages/mworkgalpic1.jpg">
+                </div>
+                <div class="mworkphotocontainertwo" id="mworkphotocontainertwoalt">
+                    <video class="mworkgalvid1" id="mworkgalvid1alt" src="siteimages/IMG_1182.MOV" controls></video>
+                </div>
+            </div>
+            <br>
+                <br>
+            <div class="mbuildingsphotoscontainer" id="mbuildingsphotoscontaineralt">
+                <h3 class="mbuildingsheadingphotos" id="mbuildingsheadingphotosalt">Metal Buildings Photos</h3>
+                <div class="mbuildingsphotocontainerone" id="mbuildingsphotocontaineronealt">
+                    <img class="mbuildingsgalimage1" id="mbuildingsgalimage1alt" src="siteimages/mbuildingsgalpic1.jpg">
+                </div>
+                <div class="mbuildingsphotocontainertwo" id="mbuildingsphotocontainertwoalt">
+                    <img class="mbuildingsgalimage2" id="mbuildingsgalimage2alt" src="siteimages/mbuildingsgalpic2.jpg">
+                </div>
+                <div class="mbuildingsphotocontainerthree" id="mbuildingsphotocontainerthreealt">
+                    <img class="mbuildingsgalimage3" id="mbuildingsgalimage3alt" src="siteimages/mbuildingsgalpic3.jpg">
+                </div>
+                <div class="mbuildingsphotocontainerfour" id="mbuildingsphotocontainerfouralt">
+                    <img class="mbuildingsgalimage4" id="mbuildingsgalimage4alt" src="siteimages/mbuildingsgalpic4.jpg">
+                </div>
+                <div class="mbuildingsphotocontainerfive" id="mbuildingsphotocontainerfivealt">
+                    <img class="mbuildingsgalimage5" id="mbuildingsgalimage5alt" src="siteimages/mbuildingsgalpic5.jpg">
+                </div>
+                <div class="mbuildingsphotocontainersix" id="mbuildingsphotocontainersixalt">
+                    <img class="mbuildingsgalimage6" id="mbuildingsgalimage6alt" src="siteimages/mbuildingsgalpic6.jpg">
+                </div>
+            </div>
+        </div>
+        <br>
+        <footer class="allpgsfooter" id="allpgsfooteralt">
+            <p class="footerinfopara">Developed by Jackson Zenisek<br>Last updated: 10/17/2025<br>&copy;2025 DLS Contracting Services</p>
+    </footer>
+    </div>
+</body>
+</html>

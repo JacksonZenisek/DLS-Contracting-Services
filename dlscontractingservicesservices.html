@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DLS Contracting Services: Services</title>
+        <link rel="stylesheet" href="servicespagestyles.css">
+        <script src="dlscontractactions.js"></script>
+        <meta charset="UTF-8">
+        <meta name="author" content="Jackson Zenisek">
+        <meta name="Languages Used" content="HTML, CSS, JavaScript, PHP">
+    </head>
+     <body class="backimg" id="backimgalt">
+    <div class="contmainbod" id="contmainbodalt">
+        <button class="bttbutton" id="bttbuttonalt" onclick="gotothetopofthehomepage()"><img class="arrowimg" id="arrowimgalt" src="siteimages/bttbutton.jpg"></button>
+        <header class="mainhpg" id="mainhpgalt">
+            <div class="rbutcontainer" id="rbutcontaineralt">
+                <button class="pgrefservbut" id="pgrefservbutalt" onclick="gobacktohomepageservref()"><img class="logimg" id="logimgbut" src="siteimages/officialdlscontractinglogo.png"></button>
+            </div>
+            <div class="selectioncontainer" id="selectionconatineralt">
+                <div class="aboutsecbut" id="aboutsecbutaalt">
+                    <button class="abtbut" id="abtbutalt" title="Go to About Section" onclick="gotoaboutpage()">About</button>
+                </div>
+                <div class="servsecbut" id="servsecbutaalt">
+                    <button class="servbut" id="servbutalt" onmouseover="showservicesmenu(),keeptrianglerotated()" onmouseout="hideservicesmenu(),returntriangle()">Services <span class="triang" id="triangalt">&#9652</span></button>
+                    <div class="slidingmenucontainer" id="slidingmenucontaineralt" onmouseover="showservicesmenu(),keeptrianglerotated()" onmouseout="hideservicesmenu(),returntriangle()">
+                        <br>
+                        <button class="roofbut" id="roofbutalt" onclick="gotoroofingpage()"><img class="starbullet" id="starbulletalt" src="siteimages/starmenu.png">Roofing</button>
+                         <br>
+                            <br>
+                        <button class="fencebut" id="fencebutalt" onclick="gotofencingpage()"><img class="starbullet" id="starbulletalt" src="siteimages/starmenu.png">Fencing</button>
+                        <br>
+                            <br>
+                        <button class="concrbut" id="concrbutalt" onclick="gotoconcretepage()"><img class="starbullet" id="starbulletalt" src="siteimages/starmenu.png">Concrete</button>
+                        <br>
+                            <br>
+                        <button class="paintbut" id="paintbutalt" onclick="gotopaintingpage()"><img class="starbullet" id="starbulletalt" src="siteimages/starmenu.png">Painting</button>
+                        <button class="sidingbut" id="sidingbutalt" onclick="gotosidingpage()"><img class="starbullet" id="starbulletalt" src="siteimages/starmenu.png">Siding</button>
+                        <br>
+                            <br>
+                        <button class="mworkbut" id="mworkbutalt" onclick="gotomworkpage()"><img class="starbullet" id="starbulletalt" src="siteimages/starmenu.png">Metal Work</button>
+                        <br>
+                            <br>
+                        <button class="mbuildbut" id="mbuildbutalt" onclick="gotombuildingspage()"><img class="starbullet" id="starbulletalt" src="siteimages/starmenu.png">Metal Buildings</button>
+                    </div>
+                </div>
+                <div class="gallerysecbut" id="gallerysecbutaalt">
+                    <button class="gallsecbut" id="gallsecbutalt" title="Go to Gallery Section" onclick="gotogallerypage()">Gallery</button>
+                </div>
+            </div>
+            <div class="mobileselectioncontainer" id="mobileselectioncontaineralt">
+                <button class="mobiledropdowniconiconcontainer" id="mobiledropdowniconiconcontaineralt" onclick="showmobilemenuhomepg()">
+                    <div class="mobiledropdowndivbar1" id="mobiledropdowndivbar1alt"></div>
+                    <br>
+                     <div class="mobiledropdowndivbar1" id="mobiledropdowndivbar1alt"></div>
+                    <span class="mobiledropdownicontriang" id="mobiledropdownicontriangalt">&#9701</span>
+                </button>
+                <div class="mobileselectiondropdownmenucontainer" id="mobileselectiondropdownmenucontaineralt">
+                    <br>
+                        <br>
+                            <br>
+                                <br>
+                    <button class="mobileaboutbutton" id="mobileaboutbuttonalt" onclick="gotoaboutpage()">About</button>
+                    <br>
+                        <br>
+                            <br>
+                                <br>
+                    <button class="mobileservicesbutton" id="mobileservicesbuttonalt" onclick="gotoservices()">Services</button>
+                    <br>
+                        <br>
+                            <br>
+                                <br>
+                    <button class="mobilegallerybutton" id="mobilegallerybuttonalt" onclick="gotogallerypage()">Gallery</button>
+                </div>
+            </div>
+        </header>
+        <div class="servicesmaincontainer" alt="servicesmaincontaineralt">
+            <div class="servicesheadingcontainer" id="servicesheadingcontaineralt">
+                <br>
+                    <br>
+                        <br>
+                <img src="siteimages/starmenu.png" class="servicesstarone" id="servicesstaronealt"><h4 class="servicesmainheading" id="servicesmainheadingalt">Our Services</h4><img src="siteimages/starmenu.png" class="servicesstartwo" id="servicesstartwoalt">
+            </div>
+            <br>
+                <br>
+                    <br>
+            <div class="roofingmaincontainer" id="roofingmaincontaineralt">
+                <br>
+                    <br>
+                <div class="roofingparacontainer" id="roofingparacontaineralt">
+                   <img class="roofingservpic" id="roofingservpicalt" src="siteimages/roofingservpic.jpg">
+                </div>
+                <br>
+                    <br>
+                <div class="roofingpiccontainer" id="roofingpiccontaineralt">
+                    <h2 class="roofingheading" id="roofingheadingalt">Roofing</h2>
+                     <p class="roofingparadesc" id="roofingparadescalt">We work on different types of roofing structures: gable roof, hip roof, metal roof, and more.</p>
+                     <br>
+                     <button class="roofingestimatebutton" id="roofingestimatebuttonalt">Request An Estimate</button>
+                </div>
+            </div>
+            <br>
+                <br>
+            <div class="fencingmaincontainer" id="fencingmaincontaineralt">
+                <br>
+                    <br>
+                <div class="fencingparacontainer" id="fencingparacontaineralt">
+                   <img class="fenceservpic" id="fenceservpicalt" src="siteimages/fencingservicepic.jpg">
+                </div>
+                <br>
+                    <br>
+                <div class="fencingpiccontainer" id="fencingpiccontaineralt">
+                    <h2 class="fencingheading" id="fencingheadingalt">Fencing</h2>
+                     <p class="fencingparadesc" id="fencingparadescalt">Our fencing services ranges form different types of fences: wood, iron, chain link, composite, and many other types.</p>
+                     <br>
+                     <button class="fencingestimatebutton" id="fencingestimatebuttonalt">Request An Estimate</button>
+                </div>
+            </div>
+            <br>
+                <br>
+             <div class="concretemaincontainer" id="concretemaincontaineralt">
+                <br>
+                    <br>
+                <div class="concreteparacontainer" id="concreteparacontaineralt">
+                   <img class="concservdisppic" id="concservdisppicalt" src="siteimages/concretegalpic3.jpg">
+                </div>
+                <br>
+                    <br>
+                <div class="concretepiccontainer" id="concretepiccontaineralt">
+                    <h2 class="concreteheading" id="concreteheadingalt">Concrete</h2>
+                     <p class="concreteparadesc" id="concreteparadescalt">We work on conrete for both repairs an new construction.</p>
+                     <br>
+                     <button class="concreteestimatebutton" id="concreteestimatebuttonalt">Request An Estimate</button>
+                </div>
+            </div>
+            <br>
+                <br>
+            <div class="paintingmaincontainer" id="paintingmaincontaineralt">
+                <br>
+                    <br>
+                <div class="paintingparacontainer" id="paintingparacontaineralt">
+                <img class="paintservpic" id="paintservpicalt" src="siteimages/paintingservpic.jpg">
+                </div>
+                <br>
+                    <br>
+                <div class="paintingpiccontainer" id="paintingpiccontainer">
+                    <h2 class="paintingheading" id="paintingheadingalt">Painting</h2>
+                     <p class="paintingparadesc" id="paintingparadescalt">We paint on different structures: fences, walls, ceilings, gates and other structures. As well as different types of material: wood, drywall, and more.</p>
+                     <br>
+                     <button class="paintingestimatebutton" id="paintingestimatebuttonalt">Request An Estimate</button>
+                </div>
+            </div>
+            <br>
+                <br>
+            <div class="sidingmaincontainer" id="sidingmaincontaineralt">
+                <br>
+                    <br>
+                <div class="sidingparacontainer" id="sidingparacontaineralt">
+                   <img class="sidingservpic" id="sidingservpicalt" src="siteimages/sidingservpic.jpg">
+                </div>
+                <br>
+                    <br>
+                <div class="sidingpiccontainer" id="sidingpiccontaineralt">
+                    <h2 class="sidingheading" id="sidingheadingalt">Siding</h2>
+                     <p class="sidingparadesc" id="sidingparadescalt">We provide quality siding surfaces for both residential and commerical buildings.</p>
+                     <br>
+                     <button class="sidingestimatebutton" id="sidingestimatebuttonalt">Request An Estimate</button>
+                </div>
+            </div>
+            <br>
+                <br>
+            <div class="mworkmaincontainer" id="mworkmaincontaineralt">
+                <br>
+                    <br>
+                <div class="mworkparacontainer" id="mworkparacontaineralt">
+                <img class="mworkservdisppic" id="mworkservdisppicalt" src="siteimages/mworkgalpic1.jpg">
+                </div>
+                <br>
+                    <br>
+                <div class="mworkpiccontainer" id="mworkpiccontaineralt">
+                    <h2 class="mworkheading" id="mworkheadingalt">Metal Work</h2>
+                     <p class="mworkparadesc" id="mworkparadescalt">Our metal work services ranges from custom signs, fabrication and more.</p>
+                     <br>
+                     <button class="mworkestimatebutton" id="mworkestimatebuttonalt">Request An Estimate</button>
+                </div>
+            </div>
+            <br>
+                <br>
+            <div class="mbuildingsmaincontainer" id="mbuildingsmaincontaineralt">
+                <br>
+                    <br>
+                <div class="mbuildingsparacontainer" id="mbuildingsparacontaineralt">
+                   <img class="mbuildingsservpic" id="mbuildingsservpicalt" src="siteimages/mbuildingservicepic.jpg">
+                </div>
+                <br>
+                    <br>
+                <div class="mbuildingspiccontainer" id="mbuildingspiccontaineralt">
+                    <h2 class="mbuidingsheading" id="mbuildingsheadingalt">Metal Buildings</h2>
+                     <p class="mbuildingsparadesc" id="mbuildingsparadescalt">We work on metal buildings for new remodeling and new construction.</p>
+                     <br>
+                     <button class="mbuildingsestimatebutton" id="mbuildingsestimatebuttonalt">Request An Estimate</button>
+                </div>
+            </div>
+        </div>
+         <footer class="allpgsfooter" id="allpgsfooteralt">
+            <p class="footerinfopara">Developed by Jackson Zenisek<br>Last updated: 10/17/2025<br>&copy;2025 DLS Contracting Services</p>
+            <br>
+                <br>
+                    <br>
+            </footer>
+        </div>
+</body>
+</html>
