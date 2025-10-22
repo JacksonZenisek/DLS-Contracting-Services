@@ -1197,6 +1197,18 @@ p.footerinfopara{
 }
 
 @media (max-width:1550px){
+    #gallerysecbutaalt{
+        margin-right:100px;
+    }
+}
+
+@media (max-width:1550px){
+    #aboutsecbutaalt{
+        margin-right:100px;
+    }
+}
+
+@media (max-width:1550px){
     #fencingphotocontainertwoalt{
         margin-top:5px;
         margin-right:250px;
