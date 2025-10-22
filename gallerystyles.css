@@ -1145,7 +1145,7 @@ p.footerinfopara{
 
 @media (max-width:1550px){
     #gallerysectionmaincontaineralt{
-        height:14800px;
+        height:15800px;
     }
 }
 
@@ -1211,7 +1211,7 @@ p.footerinfopara{
 @media (max-width:1550px){
     #fencingphotocontainertwoalt{
         margin-top:5px;
-        margin-right:250px;
+        margin-right:150px;
         margin-left:none;
         display:block;
     }
@@ -1219,7 +1219,7 @@ p.footerinfopara{
 
 @media (max-width:1550px){
     #fencingphotocontainerthreealt{
-        margin-right:250px;
+        margin-right:150px;
         margin-left:auto;
         display:block;
     }
@@ -1227,8 +1227,8 @@ p.footerinfopara{
 
 @media (max-width:1550px){
     #fencingphotocontainerfouralt{
-        margin-top:5px;
-        margin-right:250px;
+        margin-top:500px;
+        margin-right:150px;
         margin-left:none;
         display:block;
     }
@@ -1236,7 +1236,7 @@ p.footerinfopara{
 
 @media (max-width:1550px){
     #fencingphotocontainerfivealt{
-        margin-right:250px;
+        margin-right:150px;
         margin-left:auto;
         display:block;
     }
@@ -1245,7 +1245,7 @@ p.footerinfopara{
 @media (max-width:1550px){
     #fencingphotocontainersixalt{
         margin-top:5px;
-        margin-right:250px;
+        margin-right:150px;
         margin-left:none;
         display:block;
     }
@@ -1253,7 +1253,7 @@ p.footerinfopara{
 
 @media (max-width:1550px){
     #fencingphotocontainersevenalt{
-        margin-right:250px;
+        margin-right:150px;
         margin-left:auto;
         display:block;
     }
@@ -1261,12 +1261,14 @@ p.footerinfopara{
 
 @media (max-width:1550px){
     #fencingphotocontainereightalt{
-        margin-top:5px;
-        margin-right:250px;
+        margin-top:600px;
+        margin-right:150px;
         margin-left:none;
         display:block;
     }
 }
+
+
 
 @media (max-width:1550px){
     #concretephotoscontaineralt{
@@ -1447,7 +1449,7 @@ p.footerinfopara{
 
 @media (max-width:1550px){
     #fencingphotoscontaineralt{
-        height:3500px;
+        height:4500px;
         border:1px solid transparent;
         width:800px;
         margin-right:auto;
@@ -1483,7 +1485,7 @@ p.footerinfopara{
 
 @media (max-width:1200px){
     #fencingphotocontainerfouralt{
-        margin-top:5px;
+        margin-top:500px;
         margin-right:150px;
         margin-left:none;
         display:block;
@@ -1517,7 +1519,7 @@ p.footerinfopara{
 
 @media (max-width:1200px){
     #fencingphotocontainereightalt{
-        margin-top:5px;
+        margin-top:600px;
         margin-right:150px;
         margin-left:none;
         display:block;
