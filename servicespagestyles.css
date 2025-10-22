@@ -134,7 +134,7 @@ button.abtbut{
     background-color:transparent;
     border:1px solid transparent;
     font-size:40px;
-    font-family:Impact;
+    font-family:'Times New Roman';
     color:black;
     transition:0.3s;
 }
@@ -150,7 +150,7 @@ button.servbut{
     border:1px solid transparent;
     background-color:transparent;
     font-size:40px;
-    font-family:Impact;
+    font-family:'Times New Roman';
     color:black;
     transition:0.3s;
     text-align:center;
@@ -168,7 +168,7 @@ button.gallsecbut{
     background-color:transparent;
     border:1px solid transparent;
     font-size:40px;
-    font-family:Impact;
+    font-family:'Times New Roman';
     color:black;
     transition:0.3s;
 }
@@ -950,7 +950,7 @@ span.mobiledropdownicontriang{
 
 p.footerinfopara{
     font-size:25px;
-    font-family:Impact;
+    font-family:'Times New Roman';
     color:white;
 
 }
