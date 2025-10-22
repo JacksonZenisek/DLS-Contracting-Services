@@ -1682,3 +1682,9 @@ p.footerinfopara{
         width:300px;
     }
 }
+
+@media(max-width:1200px){
+    .footerinfopara{
+        font-family:'Times New Roman';
+    }
+}
