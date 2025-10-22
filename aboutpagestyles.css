@@ -343,7 +343,7 @@ footer.allpgsfooter{
 }
 
 div.aboutsectionmaincontainer{
-    height:2550px;
+    height:2750px;
     width:auto;
     border:1px solid transparent;
 }
@@ -362,7 +362,7 @@ div.aboutsectionfirstinnercontainer{
 
 div.aboutsectionheadingoutercontainer{
     height:100px;
-    width:1000px;
+    width:1200px;
     border:1px solid transparent;
     margin-right:auto;
     margin-left:auto;
@@ -393,6 +393,7 @@ div.aboutsectionsecondinnercontainer{
     width:auto;
     margin:1px;
     border:1px solid transparent;
+    margin-top:200px;
 }
 
 p.aboutsectionfrontpara{
@@ -552,7 +553,7 @@ p.aboutderekpara{
 
 @media (max-width:2050px){
     #aboutsectionmaincontaineralt{
-        height:2700px;
+        height:2900px;
     }
 }
 
@@ -591,6 +592,17 @@ p.aboutderekpara{
     }
 }
 
+
+@media (max-width:1550px){
+    #aboutsectionheadingoutercontaineralt{
+        width:auto;
+    }
+}
+
+
+
+
+
 @media (max-width:1200px){
     #selectionconatineralt{
         display:none;
@@ -614,11 +626,6 @@ p.aboutderekpara{
         width:300px;
     }
 }
-
-
-
-
-
 
 @media (max-width:1200px){
     #contmainbodalt{
