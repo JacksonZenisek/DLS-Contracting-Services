@@ -141,6 +141,7 @@ button.abtbut{
     background-color:transparent;
     border:1px solid transparent;
     font-size:40px;
+    font-family:'Times New Roman';
     font-family:Impact;
     color:black;
     transition:0.3s;
@@ -157,7 +158,7 @@ button.servbut{
     border:1px solid transparent;
     background-color:transparent;
     font-size:40px;
-    font-family:Impact;
+    font-family:'Times New Roman';
     color:black;
     transition:0.3s;
     text-align:center;
@@ -175,7 +176,7 @@ button.gallsecbut{
     background-color:transparent;
     border:1px solid transparent;
     font-size:40px;
-    font-family:Impact;
+    font-family:'Times New Roman';
     color:black;
     transition:0.3s;
 }
@@ -461,7 +462,7 @@ iframe.fbrev1{
 
 a.phonelink{
     color:black;
-    font-family:Impact;
+    font-family:'Times New Roman';
     text-decoration: none;
     font-size:35px;
     margin-top:30px;
@@ -1011,7 +1012,7 @@ span.mobiledropdownicontriang{
 
 p.footerinfopara{
     font-size:25px;
-    font-family:Impact;
+    font-family:'Times New Roman';
     color:white;
 }
 
