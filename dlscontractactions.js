@@ -153,3 +153,7 @@ function showmobilemenuhomepg(){
         b.style.transform = "rotate(0deg)";
     }
 }
+
+function gotocontactusform(){
+    window.location.href = "index.html#cuscontformalt";
+}
