@@ -1220,6 +1220,7 @@ p.footerinfopara{
         height:900px;
         border:1px solid transparent;
         text-align:center;
+        margin-top:400px;
     }
 }
 
@@ -1231,8 +1232,15 @@ p.footerinfopara{
 
 
 @media (max-width:1550px){
+    #emlinkcontaineralt{
+        width:490px;
+    }
+}
+
+
+@media (max-width:1550px){
     #frontpiccontaineralt{
-        margin-top:1000px;
+        margin-top:1300px;
     }
 }
 
