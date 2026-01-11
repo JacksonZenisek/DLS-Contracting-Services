@@ -642,13 +642,13 @@ p.aboutderekpara{
 @media (max-width:1200px){
     #aboutsectionsecondinnercontaineralt{
         width:800px;
-        height:2300px;
+        height:2100px;
     }
 }
 
 @media (max-width:1200px){
     #aboutsectionmaincontaineralt{
-        height:3500px;
+        height:3300px;
     }
 }
 
